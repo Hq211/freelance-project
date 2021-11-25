@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+header {
+  overflow: hidden;
+  width: 100%;
+  height: 70px;
+}
+
+header h1 {
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 800;
+  color: black;
+}
+
+.search-bar {
+}
+/* Header */
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  overflow: hidden;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: grey;
+  width: 100%;
+  height: 200px;
+}
+
+.resto-wrapper {
+  width: 100%;
+}
+/* blm selese */
+.resto-wrapper h1{
+    display: flex;
+    position: relative;
+    left: 22%;
+}
+/* blm selese */
+
+.resto-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.resto-content {
+  float: left;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.resto-content.image {
+    cursor: pointer;
+    width: 300px;
+    height: 200px;
+}
+.resto-content.image img{
+    width: 100%;
+    height: 100%;
+}
+.resto-content.desc {
+    width: 500px;
+}
+.resto-content.desc p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.resto-content.desc a{
+    cursor: pointer;
+    font-size: 24px;
+}
+.resto-content.add {
+    font-size: 24px;
+
+}
+
+.list {
+    cursor: pointer;
+    border: 1px solid black;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+@media (max-width: 600px){
+  
+}
